@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="bg-gray-900 text-white p-4 text-center">
+        <footer className="bg-gray-600 dark:bg-gray-900 text-white p-4 text-center">
             <p>&copy; {new Date().getFullYear()} Movie Catalog. All rights reserved.</p>
         </footer>
     );
